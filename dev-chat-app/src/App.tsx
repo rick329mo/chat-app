@@ -1,7 +1,8 @@
+import Register from "./pages/Register"
 function App() {
   return (
     <div>
-     <p>Hello World</p>
+     <Register/>
     </div>
   )
 }
