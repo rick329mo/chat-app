@@ -2,7 +2,7 @@ function Register() {
   return (
     <div className='formContainer'>
         <div className='formWrapper'>
-            <span className='logo'>Messanger</span>
+            <span className='logo'>RapidChat</span>
             <span className='title'>Register</span>
             <form action="">
                 <input type='text' placeholder='user name'/>
