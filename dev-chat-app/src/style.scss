@@ -34,6 +34,44 @@
             display: flex;
             flex-direction: column;
             gap: 1em;
+
+            input {
+                padding: 1em;
+                border: none;
+                border-bottom: #a7bcff 1px solid;
+                width: 250px;
+            &::placeholder {
+                color: rgb(175,175,175);
+            }
+            }
+
+            button {
+                background-color: #7b96ec;
+                color: white;
+                font-weight: 700;
+                padding: 0.625em;
+                border: none;
+                cursor: pointer;
+            }
+
+            label{
+                display: flex;
+                align-items: center;
+                gap: 0.5em;
+                color: #7b96ec;
+                font-size: 01rem;
+                cursor: pointer;
+
+                img {
+                    width: 30px;
+                    opacity: 30%;
+                }
+            }
+        }
+        p {
+            color: #5d5b8d;
+            font-size: 1rem;
+            margin-top: 0.625em;
         }
     }
 }

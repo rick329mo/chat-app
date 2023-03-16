@@ -1,3 +1,5 @@
+import Add from "../assets/add-image.png"
+
 function Register() {
   return (
     <div className='formContainer'>
@@ -8,7 +10,11 @@ function Register() {
                 <input type='text' placeholder='user name'/>
                 <input type='email' placeholder='email'/>
                 <input type='password' placeholder='password'/>
-                <input type='file' />
+                <input style={{display: "none"}} type='file' id="file"/>
+                <label htmlFor="file">
+                  <img src={Add} alt="add image icon" />
+                  <span>Add an avatar</span>
+                </label>
                 <button>Sign up</button>
             </form>
             <p>Already have an account? Login</p>
